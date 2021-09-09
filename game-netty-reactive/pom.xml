@@ -12,9 +12,9 @@
 
 
 
-    <artifactId>game-scoket-reactive</artifactId>
+    <artifactId>game-netty-reactive</artifactId>
     <version>1.0</version>
-    <name>game-socket-reactive</name>
+    <name>game-netty-reactive</name>
     <description>基于Netty4.1的响应式游戏通讯框架</description>
 
     <properties>
@@ -46,6 +46,12 @@
             <groupId>io.protostuff</groupId>
             <artifactId>protostuff-runtime</artifactId>
             <version>${protostuff.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.li</groupId>
+            <artifactId>game-common</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

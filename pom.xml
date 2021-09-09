@@ -4,7 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>game-scoket-reactive</module>
+        <module>game-netty-reactive</module>
+        <module>game-common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
